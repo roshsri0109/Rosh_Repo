@@ -9,11 +9,7 @@
   <packaging>war</packaging>
 
   <name>webapp</name>
-  <groupId>com.roshini</groupId>
-  <artifactId>myapp</artifactId>
-  <version>8.8.0</version>
-
-  <name>myapp</name>
+  
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
