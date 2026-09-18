@@ -1,5 +1,4 @@
-FROM eclipse-temurin:17-jdk
+FROM tomcat:8.0.20-jre8
 MAINTAINER roshini
-COPY App.java App.java
-RUN javac App.java
-CMD java App
+EXPOSE 8080
+COPY /target/webapp-3.1.2.war /usr/local/tomcat/webapps/webapp-3.1.2.war
